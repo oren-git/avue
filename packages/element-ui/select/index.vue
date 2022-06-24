@@ -21,6 +21,7 @@
              @blur="handleBlur"
              @click.native="handleClick"
              @change="changeSelect"
+             @clear="handleRemoteMethod('')"
              :multiple-limit="limit"
              :allow-create="allowCreate"
              :default-first-option="defaultFirstOption"
@@ -140,14 +141,6 @@ export default create({
     }
   },
   watch: {
-    value (val) {
-      if (!this.validatenull(val)) {
-        if (this.remote && !this.created) {
-          this.created = true
-          this.handleRemoteMethod(this.multiple ? this.text.join(DIC_SPLIT) : this.text)
-        }
-      }
-    },
     dic: {
       handler (val) {
         this.netDic = val;
