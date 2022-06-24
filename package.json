@@ -1,6 +1,6 @@
 {
   "name": "oren-avue",
-  "version": "2.9.10",
+  "version": "2.9.11",
   "description": "A Magic Configurable Web Framework",
   "main": "lib/avue.min.js",
   "unpkg": "lib/avue.min.js",
@@ -51,7 +51,7 @@
     "webpack-bundle-analyzer": "^3.0.3",
     "webpack-merge": "^4.1.4"
   },
-  "dependencies": {
+  "peerDependencies": {
     "axios": "^0.21.1",
     "countup.js": "^1.9.3",
     "dayjs": "^1.10.4",
