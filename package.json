@@ -1,6 +1,6 @@
 {
   "name": "oren-avue",
-  "version": "2.100.13",
+  "version": "2.100.14",
   "description": "A Magic Configurable Web Framework",
   "main": "lib/avue.min.js",
   "unpkg": "lib/avue.min.js",

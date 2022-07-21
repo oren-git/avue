@@ -77,6 +77,7 @@ export default create({
     value (val) {
       if (this.validatenull(val)) {
         this.poi = {}
+        this.address = ''
       }
     },
     text (val) {
@@ -87,6 +88,8 @@ export default create({
           formattedAddress: val[2],
         }
         this.address = val[2];
+      } else {
+        this.address = ''
       }
     },
     box: {
