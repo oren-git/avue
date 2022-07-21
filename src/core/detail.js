@@ -39,6 +39,9 @@ export const detail = (row = {}, column = {}, option = {}, dic = []) => {
         if (type === 'time' && result.length <= 8) {
           result = `${formatValue} ${result}`
         }
+        if (result == parseInt(result) && (result + '').length <= 10) {
+          result = result * 1000
+        }
         result = dayjs(result).format(format);
       }
     }

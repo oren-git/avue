@@ -1843,9 +1843,9 @@
   "version" "6.2.0"
 
 "caniuse-lite@^1.0.30000792", "caniuse-lite@^1.0.30000805", "caniuse-lite@^1.0.30001181":
-  "integrity" "sha1-JWyFcJo0jsTRdehHo7UVxm558qo="
-  "resolved" "https://registry.npm.taobao.org/caniuse-lite/download/caniuse-lite-1.0.30001204.tgz?cache=0&sync_timestamp=1616363076351&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcaniuse-lite%2Fdownload%2Fcaniuse-lite-1.0.30001204.tgz"
-  "version" "1.0.30001204"
+  "integrity" "sha512-XDgbeOHfifWV3GEES2B8rtsrADx4Jf+juKX2SICJcaUhjYBO3bR96kvEIHa15VU6ohtOhBZuPGGYGbXMRn0NCw=="
+  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001367.tgz"
+  "version" "1.0.30001367"
 
 "caseless@~0.12.0":
   "integrity" "sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw="
